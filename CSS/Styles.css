@@ -32,8 +32,8 @@ body
     grid-template: 50px 50px 50px / 200px 200px 200px;
 }
 
-.item .item
-{
+.item .item{
+
     background: yellow;
 }
 
