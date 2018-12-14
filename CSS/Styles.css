@@ -8,8 +8,13 @@ body
     display: grid;
     /* grid-template-columns: 25% 50% 25%; 
     grid-template-rows: 300px 300px; */
-    grid-template: 300px 100px 100px / repeat(4,minmax(200px, 1fr)) ;
-    grid-gap: 10px 100px;
+    grid-template: 100px 1fr 150px / 200px 1fr ;
+    grid-gap: 10px;
+    height: 100vh;
+    grid-template-areas: 
+    'Header Header'
+    'Navigation Content'
+    'Footer Footer';
 }
 
 .item
@@ -30,4 +35,24 @@ body
 .item .item
 {
     background: yellow;
+}
+
+.header
+{
+    grid-area: Header;
+}
+
+.navigation
+{
+    grid-area: Navigation;
+}
+
+.content
+{
+    grid-area: Content;
+}
+
+.footer
+{
+    grid-area: Footer;
 }
