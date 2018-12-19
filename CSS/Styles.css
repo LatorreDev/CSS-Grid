@@ -14,9 +14,10 @@ body
     /* grid-template-areas: 
     'Header Header'
     'Navigation Content'
-    'Footer Footer'; */
+    'Footer Footer'; 
     grid-auto-flow: column;
-    grid-auto-columns: 200px 200px 200px;
+     grid-auto-columns: 200px 200px 200px; */
+    grid-auto-rows: 50px 20 px;
 }
 
 .item
